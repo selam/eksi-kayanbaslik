@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Ekşi sözlük sabit başlık",
   "description": "Bu eklenti ekşi sözlük içerisinde okuduğunuz maddenin başlığı ve altında bulunan linkleri her zaman üstte kalacak şekilde ayarlar.",
-  "version": "0.2",
+  "version": "0.3",
   "permissions": [
     "https://eksisozluk.com/",
     "http://eksisozluk.com/"

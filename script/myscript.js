@@ -19,4 +19,14 @@
   
 
   $("#entry-list").css({"margin-top": "115px"});
+  $("<div id='id_feed-container'></div>").prependTo("#index-section");
+  
+  $("#partial-index h2:first, #partial-index #feed-info").each(function(){
+      var element = $(this).detach();
+     $("#id_feed-container").append(element);
+  });
+   $("#partial-index").css({
+     "top": "75px"
+  })
+  
 })();
