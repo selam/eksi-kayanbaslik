@@ -1,11 +1,9 @@
 (function(){
-  
   $("<div id='title-wrapper' style='background:#ebebeb; width:695px;top:65px;z-index:1999;'><div id='title-container' style='background:#ebebeb; width:695px;'></div><div id='other-container' style='background:#ebebeb; width:695px;'></div></div>").prependTo("#topic");
   $("#topic #title").each(function(){
      var element = $(this).detach();
      $("#title-container").append(element);
   });
-
   $("#topic .pager:first,  #topic .sub-title-menu, #topic .aside-link, #topic a.showall.more-data:first").each(function(){
      var element = $(this).detach();
      $("#other-container").append(element);
@@ -16,17 +14,5 @@
                            "-moz-border-radius": "0px 0px 3px 3px",
                            "border-radius": "0px 0px 3px 3px"
                            });
-  
-
   $("#entry-list").css({"margin-top": "115px"});
-  $("<div id='id_feed-container'></div>").prependTo("#index-section");
-  
-  $("#partial-index h2:first, #partial-index #feed-info").each(function(){
-      var element = $(this).detach();
-     $("#id_feed-container").append(element);
-  });
-   $("#partial-index").css({
-     "top": "75px"
-  })
-  
 })();
