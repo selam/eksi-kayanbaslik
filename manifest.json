@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Ekşi sözlük sabit başlık",
   "description": "Bu eklenti ekşi sözlük içerisinde okuduğunuz maddenin başlığı ve altında bulunan linkleri her zaman üstte kalacak şekilde ayarlar.",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
     "https://eksisozluk.com/",
     "http://eksisozluk.com/"
@@ -10,7 +10,7 @@
   "web_accessible_resources": [
     "script/myscript.js"
   ],
-
+  "homepage_url": "https://github.com/selam/eksi-kayanbaslik",
   "content_scripts": [ {
       "js": [ "background.js" ],
       "matches": [ "https://eksisozluk.com/*", "http://eksisozluk.com/*" ],
